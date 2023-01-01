@@ -1,0 +1,22 @@
+1) converting binary to decimal
+2) converting decimal to binary
+3) Operators ->
+    a) and -> all one => one    
+              all zero => zero
+
+    b) or -> any one => one 
+             all zero => zero
+
+    c) xor -> even one -> zero  
+              odd one -> one
+       xor of two number is zero if and only if both numbers are same
+       xor of any number with zero number itself
+
+    d) shift Operators
+        * right shift operator (>>) 
+            eg 5 >> 2  removes the 2 rightmost bits in the decimal representation of 5 which simplies means it gives a number which is equal to 5/(pow(2,2));
+            in general decimal >> x gives decimal/(2^x)
+        * left shift operator (<<)
+            eg 5 << 2 removes the 2 leftmost bits in the decimal representation of 5 which simplies means it gives a number which is equal to 5 * (pow(2,2));
+            in general decimal << 2 gives decimal * (2^x)
+
